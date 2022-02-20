@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AT Login Form</title>
+    <style>
+
+        body {
+            font-family:sans-serif;
+            background-image: url('backimg.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: cover;
+        }
+
+         Login{
+            padding: 0px 0px;
+            align-items: center;
+        }
+        button{
+            background-color: goldenrod;
+            width: 15%;
+            margin: 10px 10px ;
+            color: red;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover{
+            opacity: 0.6;
+            color:greenyellow;
+        }
+        input[type = "text"],input[type = "password"]{
+            border: 2px solid black;
+            background-color: beige;
+            margin: 10px;
+            padding: 12px 20px;
+            width: 32%;
+
+        }
+        form{
+            border: 2px solid black;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            height: 230px;
+            margin-right:720px;
+            margin-left:720px ;
+            text-align: center;
+        }
+        h1{
+            color: black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 title = "Enter ur id!">Login Page</h1>
+    <form action = "calc.html">
+        <div class = "Login">
+        <label><b>Username:</b></label>
+        <input type = "text" placeholder = "Enter The Username.." name = "username"  maxlength = "10" size = "10" required><br>
+        <label><b>Password:</b></label>
+        <input type = "password" placeholder = "Enter The Password.." name ="password" maxlength = "4" size = "4"required><br>
+        <button type = "submit" onclick="calc.html">Login</button><br>
+        <input type = "checkbox" style = color:blue checkbox = "checked">Remember Me!<br> <br>
+        <a href="#" style = color:yellow>Forgot Password..</a>
+        </form></div>  
+</body>
+</html>
